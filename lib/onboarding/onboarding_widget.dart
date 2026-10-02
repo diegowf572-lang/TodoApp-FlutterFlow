@@ -540,8 +540,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   borderRadius: BorderRadius.circular(24.0),
                                 ),
                                 filled: true,
-                                fillColor: FlutterFlowTheme.of(context)
-                                    .secondaryBackground,
+                                fillColor: Color(0xFFD8D6B8),
                                 contentPadding: EdgeInsetsDirectional.fromSTEB(
                                     10.0, 26.0, 0.0, 26.0),
                                 suffixIcon: _model.textFieldFoodTextController!
